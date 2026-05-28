@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { Arrow } from "./Arrow";
-import { Firebase } from "./Firebase";
+import { Logo } from "./Logo";
 
 export function Header() {
   const pathname = usePathname();
@@ -18,9 +18,7 @@ export function Header() {
       )}
 
       <header className="header">
-        <div style="position: absolute;top: -6vh;left: -45vw;height: 30vh;">
-          <img src="/logo.png" border="none" height="100%">
-        </div>
+        <Logo/>
       </header>
     </>
   );
