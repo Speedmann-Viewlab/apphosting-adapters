@@ -6,7 +6,7 @@ export function Logo() {
       <div
       style={{
         display: "flex",
-        align-items: "center",
+        alignItems: "center",
         padding: "16px",
       }}
     >
