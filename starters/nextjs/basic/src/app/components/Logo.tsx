@@ -5,10 +5,9 @@ export function Logo() {
     <>
       <div
       style={{
-        position: "absolute",
-        top: "-6vh",
-        left: "-43vw",
-        height: "33vh",
+        display: "flex",
+        align-items: "center",
+        padding: "16px",
       }}
     >
       <Image
@@ -17,7 +16,7 @@ export function Logo() {
         width={500}
         height={500}
         style={{
-          height: "100%",
+          height: "40px",
           width: "auto",
         }}
         priority
